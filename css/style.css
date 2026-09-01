@@ -1,0 +1,53 @@
+/* Configuración general */
+body {
+    background: #f4f6f9;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Tarjeta del Login */
+.card {
+    border: none;
+    border-radius: 20px;
+}
+
+
+/* Título */
+h1 {
+    font-weight: 700;
+    color: #1f2937;
+}
+
+
+/* Texto secundario */
+.text-muted {
+    font-size: 14px;
+}
+
+
+/* Campos de formulario */
+.form-control {
+    border-radius: 10px;
+    padding: 12px;
+}
+
+
+/* Cuando hacemos clic en un campo */
+.form-control:focus {
+    box-shadow: none;
+    border-color: #0d6efd;
+}
+
+
+/* Botón */
+.btn-primary {
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: 600;
+}
+
+
+/* Efecto al pasar el mouse */
+.btn-primary:hover {
+    transform: translateY(-1px);
+}
